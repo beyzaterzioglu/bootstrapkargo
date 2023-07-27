@@ -1,0 +1,169 @@
+* {
+    font-family: "Gill Sans", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    
+   /* outline:none;
+    border:none;
+    */
+   
+
+  }
+
+html{
+    font-size:100%; /* yazı kısmının büyüklüğü buradan kontrol edilir*/
+    overflow-x:hidden;
+    scroll-padding-top:6.4rem;
+    scroll-behavior: smooth;
+   }
+
+   body{
+   background-color: #d9d8d2; }
+ 
+   section{
+    padding:2.75 rem 6%;
+    
+
+   }
+
+   a{
+    color:white}
+
+   .btn{
+    display:inline-block;
+    padding: 1.9rem 2 rem;
+    border-radius: 6.7rem;
+    background-color: #202857;
+    cursor: pointer; /* tıklanabilir oldu*/
+    margin: 1.2rem 5%;
+    font-size: 20px;
+
+
+   }
+
+   .btn:hover{
+    /* buton seffaflaşr */
+    opacity: 0.5;
+   }
+   .ustbuton{
+    display:inline-block;
+    padding: 1.9rem 2 rem;
+    border-radius: 6.7rem;
+   
+    cursor: pointer; /* tıklanabilir oldu*/
+   }
+   
+
+   .header .navbar a:hover{
+    margin: 0 1 rem;
+    font-size: 1.2rem;
+    color: #61bbe0;
+ 
+    padding-bottom: 0.5rem;
+   }
+
+
+   .aranan{
+    font-size: 1rem;
+    color: black;
+    padding: 1 rem;
+    border-radius: 2.4 rem;
+   }
+  .header .logo img{
+    height: 5.6rem;
+    margin: 1.2rem 40%;
+  }
+  .header { 
+    background-color:white;
+    display: flex /* yanyana getirir*/; 
+    align-items: center;/* merkeze hizalar*/
+    justify-content: space-between;/*sağ sol boşlukları hizalar*/
+    border-radius: 20.4rem;
+    margin: 1.2rem 1%;
+
+
+  }
+  .header h1{
+    font-family: "Lucida Handwriting";
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 3rem;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    
+
+  }
+ 
+  .header .navbar{
+    margin: 1.2rem 5%;
+  }
+
+  .header .navbar a{
+    margin: 0 1 rem 5%;
+    font-size:1.6 rem ;
+    color:black;
+   border-bottom: 0.1 rem solid transparent;
+
+
+  }
+  .home .icerik{
+    max-width: 600rem; /* yanyana ne kadar harf geleceğini belirlemiş oluyoruz*/
+  }
+  .home .icerik h3{
+    font-size:  50 rem ;
+  }
+  .home .content p{
+    font-size:2rem;
+    font-weight:300;
+    line-height: 1.8;
+    padding: 1 rem 0;
+    color:black;
+  }
+  .header .navbar{
+
+    color:black;
+    top:95%;
+    width:30 rem;
+  
+  }
+.header .navbar .active{
+  right:3 rem;
+
+}
+.header .navbar .a{
+
+  color:black;
+  display: block;
+}
+.home .icerik h3{
+  font-size: 4rem;
+  margin: 1.2rem 5%;
+}
+.home .icerik p{
+ 
+  margin: 1.2rem 5%;
+}
+.home  .search-form{
+  margin: 5rem 5%;
+ 
+
+}
+.home  .search-form p{
+  color: gray;
+  display: flex;
+}
+.home .search-form{
+  display: flex;
+}
+.footer .credit{
+  margin: 1rem 5%;
+}
+
+
+   
