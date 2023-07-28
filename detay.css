@@ -33,31 +33,6 @@ html{
    a{
     color:white}
 
-   .btn{
-    display:inline-block;
-    padding: 1.9rem 2 rem;
-    border-radius: 6.7rem;
-    background-color: #202857;
-    color: white;
-    cursor: pointer; /* tıklanabilir oldu*/
-    margin: 1.2rem 5%;
-    font-size: 20px;
-
-
-   }
-
-   .btn:hover{
-    /* buton seffaflaşr */
-    opacity: 0.5;
-   }
-   .ustbuton{
-    display:inline-block;
-    padding: 1.9rem 2 rem;
-    border-radius: 6.7rem;
-    
-   
-    cursor: pointer; /* tıklanabilir oldu*/
-   }
    
 
    .header .navbar a:hover{
@@ -69,12 +44,7 @@ html{
    }
 
 
-   .aranan{
-    font-size: 1rem;
-    color: black;
-    padding: 1 rem;
-    border-radius: 2.4 rem;
-   }
+   
   .header .logo img{
     height: 5.6rem;
     margin: 1.2rem 40%;
@@ -143,29 +113,37 @@ html{
   color:black;
   display: block;
 }
-.home .icerik h3{
-  font-size: 4rem;
-  margin: 1.2rem 5%;
-}
-.home .icerik p{
- 
-  margin: 1.2rem 5%;
-}
-.home  .search-form{
-  margin: 5rem 5%;
- 
 
-}
-.home  .search-form p{
-  color: gray;
-  display: flex;
-}
-.home .search-form{
-  display: flex;
-}
 .footer .credit{
   margin: 1rem 5%;
 }
+.btn{
+    display:inline-block;
+    padding: 1.9rem 2 rem;
+    border-radius: 6.7rem;
+    background-color: #202857;
+    color: white;
+    cursor: pointer; /* tıklanabilir oldu*/
+    margin: 5rem 5%;
+    font-size: 20px;
 
 
+   }
+
+   .btn:hover{
+    /* buton seffaflaşr */
+    opacity: 0.5;
+   }
+   .ustbuton{
+    display:inline-block;
+    padding: 1.9rem 2 rem;
+    border-radius: 6.7rem;
+    
    
+    cursor: pointer; /* tıklanabilir oldu*/
+   }
+  .btn{
+    background-color:#202857;
+    margin: 3rem 2%;
+   }
+
